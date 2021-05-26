@@ -86,7 +86,7 @@ The data is stored on a public (read only) s3 bucket
 git clone https://github.com/3springs/deep_ml_curriculum.git
 cd <project root>
 # install packages in conda
-conda env update --file requirements/environment.min.yml
+conda env update --file requirements/environment.min.yaml
 # install the module, as an editable pip module
 pip install -e .
 # pull raw the data from public s3 bucket (~10Gb)
